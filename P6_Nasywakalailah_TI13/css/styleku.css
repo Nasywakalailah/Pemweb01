@@ -1,3 +1,64 @@
-body{
+body {
     background-color: wheat;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.header {
+    background-color: coral;
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.soekarno {
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
+
+.linkmu{
+    text-align: center;
+}
+
+.linkmu ul li {
+    display: inline-block;
+}
+
+.gambar {
+    text-align: center;
+}
+
+.isi {
+    text-align: justify;
+}
+
+.jawa {
+    font-size: 40px;
+    color: blue;
+}
+
+.profil {
+    text-align: justify;
+}
+.profil h3 {
+    font-size: 30px;
+}
+
+.beternak {
+    text-align: justify;
+}
+.beternak h3 {
+    font-size: 30px;
+}
+
+.koleksi img {
+    width: 300px;
+    height: 250px;
+}
+
+.promo {
+    text-align: center;
 }
