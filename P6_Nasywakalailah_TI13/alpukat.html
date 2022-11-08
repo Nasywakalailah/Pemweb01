@@ -34,6 +34,16 @@
                 width: 23%;
             }
 
+            .a1 {
+                font-weight: bold;
+                font-size: 20px;
+            }
+
+            .a2 {
+                font-weight: bold;
+                font-style: italic;
+            }
+
             .cod{
                 margin: auto;
                 width: 80%;
@@ -50,6 +60,38 @@
                 margin: 0 auto;
             }
 
+            .tabell{
+                text-align: center;
+                margin-bottom: 12px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+
+            .tabell table{
+                border-collapse: collapse;
+                position: relative;
+                margin: auto;
+                color: black;
+            }
+
+            .tabell table th,
+            table td{
+                border: 1px solid #f5f5f5;
+                padding: 7px 17px;
+            }
+
+            .tabell thead th{
+                background-color: #35a9db;
+                color: #fff;
+                border-color: #6ea1cc;
+            }
+
+            .tabell tbody td{
+                color: #353535;
+            }
+
+            .tabell tbody tr:nth-child(odd) td{
+                background-color: #f2f2f2;
+            }
             .promo{
                 color: red;
                 text-align: center;
@@ -101,12 +143,12 @@ Daerah penghasil alpukat adalah Jawa Barat,Jawa Timur, sebagian Sumatera, Sulawe
         <p>
             <h3>Berikut khasiat buah Alpukat:</h3>
             <ol>
-                <li>Vitamin E, Memiliki anti aging yang bisa mendorong
+                <li><span class="a1">Vitamin E,</span> Memiliki <span class="a2">anti aging</span> yang bisa mendorong
                     perawatan kulit alamai
                 </li>
-                <li>Vitamin K, Membantu mencegah terjadinya osteoporosis</li>
-                <li>Viitamin B5, Membantu menurunkan tingkat stress, meringankan rasa sakit</li>
-                <li>Vitamin B6, Membantu treat diabetes, pendarahan menstruasi,
+                <li><span class="a1">Vitamin K,</span> Membantu <span class="a2">mencegah</span> terjadinya osteoporosis</li>
+                <li><span class="a1">Viitamin B5,</span> Membantu <span class="a2">menurunkan</span> tingkat stress, meringankan rasa sakit</li>
+                <li><span class="a1">Vitamin B6,</span> Membantu <span class="a2">treat diabetes,</span> pendarahan menstruasi,
                     insomnia
                 </li>
             </ol>
@@ -131,10 +173,54 @@ Daerah penghasil alpukat adalah Jawa Barat,Jawa Timur, sebagian Sumatera, Sulawe
             </h3>
         </div>
        <div class="cod">
-        <p>
-            PEMBAYARAN DI TEMPAT / COD <br/>hanya untuk Jakarta, Bekasi dan Depok
-            <br/>POTONGAN ONGKIR Rp.5.000,- <br/>UNTUK PEMBELIAN VIA TRANSFER 
-       </div>
+        <p>PEMBAYARAN DI TEMPAT / COD 
+            <br/>hanya untuk Jakarta, Bekasi dan Depok
+            <br/>POTONGAN ONGKIR Rp.5.000,- 
+            <br/>UNTUK PEMBELIAN VIA TRANSFER 
+        </p> <br><br>
+        <div class="tabell">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Jenis Alpukat</th>
+                            <th>Harga 1 Kg</th>
+                            <th>Harga 2 Kg</th>
+                            <th>Harga 3 Kg</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>1</strong></td>
+                            <td>Alpukat Mentega</td>
+                            <td>Rp. 35.000</td>
+                            <td>Rp. 65.000</td>
+                            <td>Rp. 90.000</td>
+                        </tr>
+                        <tr>
+                            <td><strong>2</strong></td>
+                            <td>Alpukat Miki</td>
+                            <td>Rp. 50.000</td>
+                            <td>Rp. 90.000</td>
+                            <td>Rp. 135.000</td>
+                        </tr>
+                        <tr>
+                            <td><strong>3</strong></td>
+                            <td>Alpukat Aligator</td>
+                            <td>Rp. 30.000</td>
+                            <td>Rp. 55.000</td>
+                            <td>Rp. 80.000</td>
+                        </tr>
+                        <tr>
+                            <td><strong>4</strong></td>
+                            <td>Alpukat Kendil</td>
+                            <td>Rp. 40.000</td>
+                            <td>Rp. 75.000</td>
+                            <td>Rp. 100.000</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
        <br/>
        <div id="tombol">
             <button>PESAN SEKARANG</button>
